@@ -12,3 +12,13 @@ hamburger.addEventListener('click', function()
         navbar.style.display = 'none';
     }
 });
+
+// Redirect to a subdomain
+function redirectToSubdomain(subdomain) {
+    const currentDomain = window.location.hostname;
+    const newUrl = `localhost://${subdomain}.${currentDomain}`;
+    window.location.href = newUrl;
+}
+
+// Example usage: Redirect to blog subdomain
+redirectToSubdomain('blog');
