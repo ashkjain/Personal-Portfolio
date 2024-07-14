@@ -99,9 +99,7 @@
         display: grid;
         grid-template-rows: auto auto;
         background-color: var(--header-footer-font-color);
-        border-width: 2vw;
-        border-color:white;
-        border-style: ridge;
+        border: 1vw ridge var(--header-footer-font-color);
     }
     .my-info-profile
     {
@@ -135,5 +133,21 @@
     {
         margin: 0 1%;
     }
-    
+
+    .projects-open
+    {
+        text-align: center;
+        grid-template-columns: auto;
+    }
+    .projects
+    {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+    .project-1 > img, .project-2 > img, .project-3 > img 
+    {
+        width: 40%;
+    }
 }
