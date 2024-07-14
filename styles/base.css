@@ -1,5 +1,7 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 *
 {
@@ -12,7 +14,9 @@
 {
     --header-footer-color: #131842;
     --header-footer-font-color: #FBF6E2; 
-    --mynamefont: "Playwrite CU"
+    --mynamefont: "Playwrite CU";
+    --navfont: "kanit";
+    --profile-info: "Caveat";
     
 }
 @media only screen and (max-width: 480px)
@@ -77,6 +81,7 @@
         border: 1px solid ;
         font-size: 6vw;
         text-decoration: none;
+        font-family: var(--navfont);
     }
     .links:hover
     {
@@ -93,6 +98,7 @@
     .my-info{
         display: grid;
         grid-template-rows: auto auto;
+        background-color: var(--header-footer-font-color);
     }
     .my-info-profile
     {
@@ -104,7 +110,8 @@
         align-content: center;
         text-align: center;
     }
-    #profile-img{
+    #profile-img
+    {
         width: 20%;
         border-radius: 50%;
         height: 80%;
@@ -112,4 +119,18 @@
         object-position: 100% 20%;
         
     }
+    .intro-name
+    {
+        font-family: var(--profile-info);
+        font-size: 9vw;
+    }
+    .intro-name > span
+    {
+        font-weight: 900;
+    }
+    .intro-desc
+    {
+        margin: 0 1%;
+    }
+    
 }
