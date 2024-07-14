@@ -99,6 +99,9 @@
         display: grid;
         grid-template-rows: auto auto;
         background-color: var(--header-footer-font-color);
+        border-width: 2vw;
+        border-color:white;
+        border-style: ridge;
     }
     .my-info-profile
     {
