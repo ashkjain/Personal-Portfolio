@@ -144,6 +144,16 @@
         margin: 2% 0;
         text-align: center;
     }
+    .my-info-skills-1
+    {
+        font-size: 5vw;
+        font-family: var(--my-desc);
+    }
+    .my-info-skills-2
+    {
+        font-family: var(--profile-info);
+        font-size: 4vw;
+    }
     .skills
     {
         display: grid;
