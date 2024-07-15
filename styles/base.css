@@ -98,7 +98,7 @@
     main
     {
         display: grid;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: auto auto auto auto;
     }
     .my-info{
         display: grid;
@@ -152,7 +152,7 @@
     .my-info-skills-2
     {
         font-family: var(--profile-info);
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .skills
     {
