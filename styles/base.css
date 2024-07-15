@@ -20,6 +20,7 @@
     --navfont: "kanit";
     --profile-info: "Caveat";
     --my-desc: "Kalam" , cursive;
+    --skills-color: #1a1423;
     
 }
 @media only screen and (max-width: 480px)
@@ -138,7 +139,34 @@
         margin: 0 1%;
         font-family: var(--my-desc);
     }
+    .my-info-skills
+    {
+        margin: 2% 0;
+        text-align: center;
+    }
+    .skills
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
 
+    .skills > span
+    {
+    margin: 2% 0;
+    padding: 2% 0;
+    border: .5vw solid white;
+    border-radius: 10vw;
+    width: 50%;
+    font-weight: 900;
+    background: var(--skills-color);
+    color: white;
+    }
+    .skills > span:hover
+    {
+        background: #93b7be;
+        color: var(--header-footer-color);
+    }
     .projects-open
     {
         text-align: center;
