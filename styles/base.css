@@ -202,4 +202,26 @@
     {
         width: 40%;
     }
+
+    .about-me
+    {
+        background-color: var(--header-footer-font-color);
+        border: 1vw ridge var(--nav-border);
+    }
+    .about-me-title
+    {
+        font-family: var(--profile-info);
+        font-size: 9vw;
+        text-align: center;
+    }
+    .about-me-para
+    {
+        text-align: center;
+        font-family: var(--my-desc);
+
+    }
+    .about-me-para > span
+    {
+        font-weight: 900;
+    }
 }
