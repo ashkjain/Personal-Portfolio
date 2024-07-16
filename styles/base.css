@@ -236,13 +236,58 @@
         padding: 2% 1%;
         margin: 1% 0;
         text-decoration: none;
-        color: black;
+        color: whitesmoke;
         font-family: var(--my-desc);
         background-color: darkseagreen;
-
     }
     .my-resume:hover
     {
         background-color: tomato;
+    }
+
+    .projects-open
+    {
+        background-color: var(--header-footer-font-color);
+        border: 1vw ridge var(--nav-border);
+    }
+    .projects-open-title
+    {
+        font-family: var(--profile-info);
+        font-size: 9vw;
+        text-align: center;
+    }
+    .projects-open-para
+    {
+        text-align: center;
+        font-family: var(--my-desc);
+        padding: 0 1%;
+    }
+    .projects > .project-1, .project-2, .project-3
+    {
+        border: 2vw outset black;
+        display: grid;
+        justify-items: center;
+    }
+    .project-heading
+    {
+        font-family: var(--my-desc);
+        font-size: 5vw;
+    }
+    .project-desc
+    {
+        font-family: var(--my-desc);
+    }
+    .project-link
+    {
+        border: .5vw solid black;
+        padding: 1% 5%;
+        /* display: inline-block; */
+        border-radius: 2vw;
+        text-decoration: none;
+        color: white;
+        background-color: chartreuse;
+        font-weight: 900;
+        font-family: var(--my-desc);
+        margin: 2% 0;
     }
 }
