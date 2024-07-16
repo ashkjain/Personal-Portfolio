@@ -207,6 +207,8 @@
     {
         background-color: var(--header-footer-font-color);
         border: 1vw ridge var(--nav-border);
+        display: grid;
+        justify-items: center;
     }
     .about-me-title
     {
@@ -218,10 +220,29 @@
     {
         text-align: center;
         font-family: var(--my-desc);
+        padding: 0 1%;
 
     }
     .about-me-para > span
     {
         font-weight: 900;
+    }
+    .my-resume
+    {
+        text-align: center;
+        border: .5vw solid black;
+        border-radius: 2vw;
+        width: 60%;
+        padding: 2% 1%;
+        margin: 1% 0;
+        text-decoration: none;
+        color: black;
+        font-family: var(--my-desc);
+        background-color: darkseagreen;
+
+    }
+    .my-resume:hover
+    {
+        background-color: tomato;
     }
 }
