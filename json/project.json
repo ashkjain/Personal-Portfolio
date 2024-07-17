@@ -1,0 +1,23 @@
+{
+    "project-1":
+    {
+        "project-name":"Flight Booking Console Application",
+        "project-desc":"This is a flight booking console application, that is built using C# and Json for the data. The data is hard coded in the file, but this uses Object Oriented Approach to perform the task.",
+        "project-link":"https://github.com/ashishjain-repo/cse210-hw/tree/main/final/FinalProject",
+        "project-img":"csharp.png"
+    },
+    "project-2":
+    {
+        "project-name":"",
+        "project-desc":"",
+        "project-link":"",
+        "project-img":""
+    },
+    "project-3":
+    {
+        "project-name":"",
+        "project-desc":"",
+        "project-link":"",
+        "project-img":""
+    }
+}
