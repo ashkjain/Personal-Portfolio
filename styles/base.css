@@ -343,4 +343,65 @@
         font-family: var(--navfont);
         font-size: 4vw;
     }
+
+    footer
+    {
+        
+    }
+    .contact
+    {
+        background-color: #191F22;
+    }
+    .contact > .contact-hey
+    {
+        color: white;
+        font-family: var(--profile-info);
+        text-align: center;
+        font-size: 7vw;
+    }
+    .contact > .contact-direct
+    {
+        color: white;
+        font-family: var(--my-desc);
+        text-align: center;
+        font-size: 4vw;
+    }
+    .contact-form
+    {
+        background-color: #191F22;
+    }
+
+
+    .main-footer
+    {
+        background-color: var(--header-footer-color);
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 7vh;
+        justify-items: center;
+        align-items: center;
+    }
+    .main-footer > ul
+    {
+        display: flex;
+        list-style: none;
+    }
+    .social-links
+    {
+        margin: 0 1vw;
+    }
+    .social
+    {
+        background: white;
+        width: 10vw;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 100% 20%;
+    }
+.main-footer > p
+{
+        font-family: var(--mynamefont);
+        font-size: 5vw;
+        color: var(--header-footer-font-color);    
+}
 }
