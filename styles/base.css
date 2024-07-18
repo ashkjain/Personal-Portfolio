@@ -377,10 +377,22 @@
         margin: 2vw 0;
         height: 5vh;
         padding-left: 1vw;
+        font-family: var(--my-desc);
+        color: white;
+        background: #000;
     }
     .contact-form > form > textarea
     {
+        text-align: left;
         height: 10vh;
+        color: white;
+        background: #000;
+    }
+    #submit-form
+    {
+        font-size: 6vw;
+        background-color: limegreen;
+        font-weight: 900;
     }
 
     .main-footer
@@ -388,7 +400,7 @@
         background-color: var(--header-footer-color);
         display: grid;
         grid-template-columns: auto auto;
-        height: 6vh;
+        height: 7vh;
         justify-items: center;
         align-items: center;
     }
