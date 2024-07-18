@@ -369,15 +369,26 @@
     .contact-form
     {
         background-color: #191F22;
+        text-align: center;
     }
-
+    .contact-form > form > input, textarea
+    {
+        width: 80vw;
+        margin: 2vw 0;
+        height: 5vh;
+        padding-left: 1vw;
+    }
+    .contact-form > form > textarea
+    {
+        height: 10vh;
+    }
 
     .main-footer
     {
         background-color: var(--header-footer-color);
         display: grid;
         grid-template-columns: auto auto;
-        height: 7vh;
+        height: 6vh;
         justify-items: center;
         align-items: center;
     }
