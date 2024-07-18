@@ -13,3 +13,7 @@ hamburger.addEventListener('click', function()
     }
 });
 
+if (window.innerWidth >  768)
+{
+    navbar.innerHTML += "<li class='logo-name links'>AJ</li>"
+}

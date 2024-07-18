@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (min-width:768px)
+{
+    
+    .myname,.hamburger
+    {
+        display: none;
+    }
+    .nav-links
+    {
+        display: grid;   
+        grid-template-columns: repeat(6,1fr);
+        align-items: center;
+        align-content: center;
+        height: 6vh;
+        border-bottom: 1px solid;
+    }
+    .nav-links > li
+    {
+        list-style: none;
+        display: block;
+        
+    }
+    .links
+    {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 1vh 0;
+        margin: 0 1vw;
+        color: black;
+        font-weight: 600;
+    }
+    .links:hover
+    {
+        background-color: crimson;
+        color: white;
+        border-radius: .5vw;
+        border: .1vw solid black;
+    }
+    .logo-name
+    {
+        color: white;
+        background: crimson;
+        border-radius: .5vw;
+        border: .2vw solid black;
+        letter-spacing: .5vw;
+    }
+    #profile-img
+    {
+        width: 10vw;
+    }
+}
