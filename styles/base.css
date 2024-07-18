@@ -23,7 +23,7 @@
     --skills-color: #1a1423;
     
 }
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 768px)
 {
     body
     {
@@ -393,6 +393,7 @@
         font-size: 6vw;
         background-color: limegreen;
         font-weight: 900;
+        margin-bottom: 2vh;
     }
 
     .main-footer
@@ -424,7 +425,19 @@
 .main-footer > p
 {
         font-family: var(--mynamefont);
-        font-size: 5vw;
+        font-size: 3vw;
         color: var(--header-footer-font-color);    
 }
+
+}
+@media (min-width: 480px) and (max-width: 768px)
+{
+    #submit-form
+    {
+        font-size: 3vw;
+    }
+    .main-footer
+    {
+        height: 10vh;
+    }
 }
