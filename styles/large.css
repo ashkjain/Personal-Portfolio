@@ -175,6 +175,37 @@
     margin-top: 20px;
     text-align: center;
 }
-
+.projects
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.projects-open-title
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects-open-para
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.project
+{
+    width: 300px;
+}
+.project > img
+{
+    width: 300px;
+}
+.project-heading
+{
+    font-size: 40px;
+    color: crimson;
+}
 
 }
