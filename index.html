@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.png">
     <script src="./scripts/main.js" defer></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>Document</title>
 </head>
 
@@ -18,9 +19,9 @@
             <p class="hamburger"><button id="ham-button">&#9776;</button></p>
             <ul class="nav-links" id="nav-links">
                 <li><a href="" class="links">Home</a></li>
-                <li><a href="" class="links">About</a></li>
+                <li><a href="#about" class="links">About</a></li>
                 <li><a href="" class="links">Projects</a></li>
-                <li><a href="" class="links">Contact</a></li>
+                <li><a href="#contact" class="links">Contact</a></li>
                 <li><a href="" class="links">Blog</a></li>
             </ul>
         </nav>
@@ -55,7 +56,7 @@
         </div>
         <!-- My Info -->
         <!-- About Me -->
-        <div class="about-me">
+        <div class="about-me" id="about">
             <p class="about-me-title">About Me</p>
             <p class="about-me-para">Hello! I'm <span>Ashish Jain</span>, a passionate Web Backend Developer originally
                 from New Delhi, India.
@@ -132,7 +133,7 @@
         <!-- This is the main section -->
     </main>
     <footer>
-        <div class="contact">
+        <div class="contact" id="contact">
             <p class="contact-hey">Hey! Let's get in touch!</p>
             <p class="contact-direct">Please Fill Out The Form</p>
         </div>
