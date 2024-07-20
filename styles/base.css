@@ -99,7 +99,7 @@
     main
     {
         display: grid;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto ;
     }
     .my-info{
         display: grid;
@@ -295,53 +295,6 @@
         height: 4vh;
     }
 
-    .blog-open
-    {
-        display: grid;
-        justify-items: center;
-        border: 1vw ridge var(--nav-border);
-        background-color: var(--header-footer-font-color);
-    }
-    .blog-open-heading
-    {
-        font-family: var(--profile-info);
-        font-size: 9vw;
-        text-align: center;
-    }
-    .blog-open-desc
-    {
-        text-align: center;
-        font-family: var(--my-desc);
-        font-size: 4vw;
-    }
-    .blogs
-    {
-        display: grid;
-        justify-items: center;
-    }
-    .blog
-    {
-        border: 2vw outset black;
-        margin: 5% 0;
-        text-align: center;
-        padding: 2% 0;
-        width: 80%;
-
-    }
-    .blog > img
-    {
-        width: 30%;
-    }
-    .blog > .blog-title
-    {
-        font-family: var(--my-desc);
-        font-size: 5vw;
-    }
-    .blog > .blog-desc
-    {
-        font-family: var(--navfont);
-        font-size: 4vw;
-    }
 
     footer
     {
