@@ -1,0 +1,183 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1.0, user-scaleable=no">
+    <link rel="stylesheet" href="./styles/blog.css">
+    <title>Blogs | </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul><li><a href="">Home</a></li></ul>
+            <ul><li><a href="">Portfolio</a></li></ul>
+            <ul><li><a href="">Github</a></li></ul>
+            <ul><li><a href="">Linkedin</a></li></ul>
+        </nav>
+    </header>
+    <main> -->
+
+        <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=1024, initial-scale=1.0, user-scaleable=no" />
+            <link rel="stylesheet" href="./styles/blog.css">
+            <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.png">
+            <script src="./scripts/main.js" defer></script>
+            <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+            <title>Document</title>
+        </head>
+        
+        <body>
+            <header>
+                <nav>
+                    <p class="myname">Ashish Jain</p>
+                    <p class="hamburger"><button id="ham-button">&#9776;</button></p>
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="" class="links">Home</a></li>
+                        <li><a href="#about" class="links">About</a></li>
+                        <li><a href="" class="links">Projects</a></li>
+                        <li><a href="#contact" class="links">Contact</a></li>
+                        <li><a href="" class="links">Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <!-- This is the main section -->
+                <!-- My Info -->
+                <div class="my-info">
+                    <div class="my-info-profile">
+                        <img src="./images/profile/image-ashish.jpg" alt="" id="profile-img" />
+                        <p class="intro-name">Hi! I'm <span>Ashish Jain</span></p>
+                        <p class="intro-desc">
+                            Welcome to my personal site! I'm passionate about backend development and enjoy sharing knowledge to
+                            help others in the tech community. When I'm not programming, I love exploring new technologies and
+                            finding innovative solutions to complex problems.
+                        </p>
+                    </div>
+                    <div class="my-info-skills">
+                        <p class="my-info-skills-1">My Skills</p>
+                        <p class="my-info-skills-2">Technology that I am familiar with and learning</p>
+                        <div class="skills">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- My Info -->
+                <!-- About Me -->
+                <div class="about-me" id="about">
+                    <p class="about-me-title">So, who am I?</p>
+                    <p class="about-me-para">Hello! I'm <span>Ashish Jain</span>, a passionate Web Backend Developer originally
+                        from New Delhi, India.
+                        Currently, I am pursuing a Bachelor's degree in Computer Science at Brigham Young University - Idaho in
+                        Rexburg, Idaho. <br>
+                        My main focus is on backend development, where I continuously learn and refine my skills. I have a good
+                        grasp of several programming languages and technologies, including JavaScript, Python, MySQL, C#, CSS,
+                        HTML, and Flask. I'm also a certified Python Entry Level Developer (PCEP-30-02). <br>
+                        I enjoy the challenges of backend development, from database management to server-side logic. I'm always
+                        eager to explore new technologies and enhance my skillset. Besides coding, I love sharing my knowledge
+                        and experiences through my blog, helping others navigate the ever-evolving world of technology.</p>
+                    <a href="" download="" class="my-resume">My Resume/Curriculum Vitae</a>
+                </div>
+                <!-- About Me -->
+                <div class="projects-open">
+                    <p class="projects-open-title">My Projects</p>
+                    <p class="projects-open-para">These are the projects that I am working on and I worked on</p>
+                    <div class="projects">
+                        <div class="project">
+                            <img src="./images/project/gradient-csharp.png" alt="" />
+                            <p class="project-heading">Project Heading</p>
+                            <p class="project-desc">
+                                This is the project description. Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Optio eum non sunt! Libero eligendi
+                                quis labore architecto quam? Rem, voluptatum.
+                                Description will come from JSON
+                            </p>
+                            <a href="" class="project-link">Take Me There</a>
+                        </div>
+                        <div class="project">
+                            <img src="./images/project/gradient-flask.png" alt="" />
+                            <p class="project-heading">Project Heading</p>
+                            <p class="project-desc">
+                                This is the project description. Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Optio eum non sunt! Libero eligendi
+                                quis labore architecto quam? Rem, voluptatum.
+                            </p>
+                            <a href="" class="project-link">Take Me There</a>
+                        </div>
+                        <div class="project">
+                            <img src="./images/project/gradient-mysql.png" alt="" />
+                            <p class="project-heading">Project Heading</p>
+                            <p class="project-desc">
+                                This is the project description. Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Optio eum non sunt! Libero eligendi
+                                quis labore architecto quam? Rem, voluptatum.
+                            </p>
+                            <a href="" class="project-link">Take Me There</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <!-- This is the main section -->
+            </main>
+            <footer>
+                <div class="contact" id="contact">
+                    <p class="contact-hey">Hey! Let's get in touch!</p>
+                    <p class="contact-direct">Please Fill Out The Form</p>
+                </div>
+                <div class="contact-form">
+                    <form method="post">
+                        <input type="text" name="" id="" placeholder="Full Name" /><br />
+                        <input type="email" name="" id="" placeholder="Email" /><br />
+                        <input type="text" name="" id="" placeholder="Subject" /><br />
+                        <textarea  name="" id="" placeholder="Please Leave a Short Message" cols="" rows="">
+                        </textarea><br />
+                        <input type="submit" value="Submit" id="submit-form">
+                    </form>
+                </div>
+                <div class="main-footer">
+                    <ul>
+                        <li class="social-links">
+                            <a href="https://github.com/ashishjain-repo/" title="Main Github Account"><img
+                                    src="./images/github.png" alt="" class="social" /></a>
+                        </li>
+                        <li class="social-links">
+                            <a href="https://www.linkedin.com/in/ashishjain1008" title="Linkedin Profile"><img
+                                    src="./images/linkedin.png" alt="" class="social" /></a>
+                        </li>
+                        <li class="social-links">
+                            <a href="https://github.com/ashkjain/" title="Personal Github Account"><img
+                                    src="./images/github.png" alt="" class="social" /></a>
+                        </li>
+                    </ul>
+                    <p title="© 2024 Ashish Jain. All rights reserved.
+        ">Ashish Jain</p>
+                </div>
+            </footer>
+        </body>
+        
+        </html>
+
+
+
+    <!-- </main>
+    <footer>
+        <ul>
+            <li><a href="">Ashish Jain</a></li>
+            <li><a href=""><img src="./images/github.png" alt=""></a></li>
+            <li><a href=""><img src="./images/linkedin.png" alt=""></a></li>
+            <li><a href=""><img src="./images/github.png" alt=""></a></li>
+        </ul>
+    </footer>
+</body>
+</html> -->
