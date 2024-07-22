@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1.0, user-scaleable=no">
+    <link rel="stylesheet" href="./styles/blog.css">
+    <link rel="stylesheet" href="./styles/blog-page.css">
+    <!-- <script src="./scripts/api.js" defer></script> -->
+     <script src="./scripts/blog-main.js" defer></script>
+    <title>Blogs | </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-list"><a href="./blog.html">Home</a></li>
+                <li class="nav-list"><a href="./index.html">Portfolio</a></li>
+                <li class="nav-list"><a href="#">Github</a></li>
+                <li class="nav-list"><a href="#">Linkedin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="blog-main">
+        <div class="the-blog">
+            <p class="main-heading">This is the heading of the blog. Main Heading.</p>
+            <p class="content-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laudantium facilis suscipit id eaque quibusdam sapiente, excepturi nam dolore. Libero placeat cumque itaque praesentium harum cum reiciendis quam, qui quibusdam repudiandae. Animi excepturi vel quae ut soluta eaque cum illum rem, voluptate recusandae ducimus enim veritatis, officiis cumque consequuntur omnis hic corrupti repellendus quod eius illo? Autem consequatur harum libero, iusto cum odio repudiandae cupiditate, labore quis officiis amet iure suscipit vero veniam, sunt quidem sapiente perspiciatis tenetur? Sit, sequi delectus! Beatae accusantium, dolorum voluptatem aliquid dignissimos perferendis laborum ratione rerum explicabo debitis maxime, molestiae tempore maiores libero minus asperiores.</p>
+            <p class="sub-heading">This is the subtitle for code</p>
+            <p class="file-name">app.py</p>
+            <pre>
+                <code class="code">
+from flask import flask, render_template
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+# Or you can do this
+
+@app.route('/html')
+def index():
+    return "&lt;h1&gt;Hello World!&lt;/h1&gt;"
+                </code>
+            </pre>
+<p class="content-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, enim. <span class="inline-code">@app.route('/')</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati enim dolorem explicabo possimus autem esse. <span class="inline-code">render_template</span>
+</p>
+<p class="image-name">Image Name</p>
+<img src="./images/blog-img/blog-ex.png" alt="" class="image">
+<ul>
+    <li></li>
+</ul>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="./index.html" class="main-site">Ashish Jain</a></li>
+            <li>&copy; Ashish Jain 2023 - <span id="copy-year"></span>. All rights reserved.</li>
+            <li><a href=""><img src="./images/github.png" alt=""></a></li>
+            <li><a href=""><img src="./images/linkedin.png" alt=""></a></li>
+            <li><a href=""><img src="./images/github.png" alt=""></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

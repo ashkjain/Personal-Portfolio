@@ -1,0 +1,58 @@
+#blog-main
+{
+    display: grid;
+    background-color: white;
+}
+.the-blog
+{
+    margin: 15px 20px;
+    width: 90vw;
+}
+.main-heading
+{
+    font-size: 40px;
+    margin: 10px 0;
+}
+.sub-heading
+{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.content-para
+{
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 25px;
+}
+.file-name
+{
+    color: blue;
+    margin-top: 5px;
+}
+.code
+{
+    width: 90vw;
+    display: block;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.inline-code
+{
+    background: #000;
+    color: white;
+    padding: 0 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.image-name
+{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: blue;
+    letter-spacing: 2px;
+}
+.image
+{
+    width: 800px;
+    border: 1px solid black;
+}
